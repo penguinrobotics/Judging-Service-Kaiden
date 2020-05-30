@@ -119,10 +119,10 @@ def add_skills_rank(number, srank):
     teams[number].set_skills_rank(srank)
 
 # Web Scraping Module ----------------------------------------------------------------------------------------------------------
-ROOT = "http://10.0.0.217/"
+ROOT = "http://localhost/"
 TOURNY = ROOT + "division1/rankings"
 SKILLS = ROOT + "skills/rankings"
-DIRECTORY = "D:/Penguin Judging Service/"
+DIRECTORY = "C:/Programs/Judging/"
 INPUT_FILE = DIRECTORY + "teams.csv"
 OUTPUT_FILE = DIRECTORY + "combined.csv"
 
@@ -242,4 +242,4 @@ if __name__ == '__main__':
     get_tourny_rank()
     get_skills_ranks()
     save_combined_scores()
-    print("Program Exiting")
+    print("Program Ending")
