@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
-from astropy.table import index
 #Note: Number, Name, Tournament Rank, Skills Rank, Judged Score, wlt, wp, ap, sp, total skills, prog, driving, prog attempts, driving attempts ----
 '''
 Created on May 25, 2020
